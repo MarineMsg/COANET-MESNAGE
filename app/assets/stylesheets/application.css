@@ -69,9 +69,21 @@ p {
 
 /* header */
 
+.glyphicon{
+    background-image: url(assets/fonts/glyphicons-halflings-white.png);
+}
+
 #logo {
+  position: absolute;
   float: left;
   margin-right: 10px;
+  margin-top: -30px;
+}
+
+#logo-titre {
+  float: left;
+  margin-right: 10px;
+  padding-left: 105px;
   font-size: 1.7em;
   color: #fff;
   text-transform: uppercase;
@@ -80,9 +92,41 @@ p {
   font-weight: bold;
 }
 
-#logo:hover {
+#logo-titre:hover {
   color: #fff;
   text-decoration: none;
+}
+
+.navbar{
+  background-color: #E3A79F;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.navbar ul li > a:focus,
+.navbar ul li > a:active,
+.navbar ul li > a:hover{
+  background-color: #E7807B;
+}
+
+.navbar .dropdown  ul{
+  background-color: #E3A79F;
+}
+
+.navbar .dropdown  ul a{
+  color: #fff;
+}
+
+.navbar-nav > .open > a, 
+.navbar-nav > .open > a:hover, 
+.navbar-nav > .open > a:focus {
+  background-color: #E7807B;
+}
+
+.icon-bar{
+  color: #fff;
 }
 
 /* footer */
@@ -91,7 +135,8 @@ footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
-  color: #777;
+  color: #fff;
+  background-color: #E7807B;
 }
 
 footer a {
