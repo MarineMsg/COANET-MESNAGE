@@ -55,7 +55,6 @@ h1 {
 
 h2 {
   font-size: 1.2em;
-  letter-spacing: -1px;
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
@@ -65,6 +64,40 @@ h2 {
 p {
   font-size: 1.1em;
   line-height: 1.7em;
+}
+
+a{
+  color: #E7807B;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #999;
+  border-color: #777;
+}
+
+.btn-primary:hover {
+  background-color: #777;
+  border-color: #777;
+}
+
+.round{
+  display:inline-block;
+  line-height: 145px;
+  width: 150px;
+  height: 150px;
+  border: 5px solid #999; /*rgb(28, 64, 105);*/
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.round-logo {
+  position: absolute;
+  margin-top: -10px;
+  margin-left: -50px;
 }
 
 /* header */
@@ -123,10 +156,6 @@ p {
 .navbar-nav > .open > a:hover, 
 .navbar-nav > .open > a:focus {
   background-color: #E7807B;
-}
-
-.icon-bar{
-  color: #fff;
 }
 
 /* footer */

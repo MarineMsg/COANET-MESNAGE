@@ -14,15 +14,31 @@
     </div>
   </div>
 <% else %>
-<div class="center jumbotron">
-  <h1>Welcome to the Sample App</h1>
+<div class="center">
+  <h1>Remind My Makeup</h1>
 
   <h2>
-    This is the home page for the
-    <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a> sample application.
+    REMIND MY MAKEUP is an app created for all the beauty addicts who can't remember when they opened their products. When you open a new product, create a new card for it in REMIND MY MAKEUP and put the expiration date. When you product will not be good to use, REMIND MY MAKEUP will remind you.
   </h2>
+      
+      <%= link_to(signup_path) do %>
+      <span class="round">
+        <%= image_tag("pen.png", :alt => "sign-up logo", class: "round-logo") %>Sign up now !
+      </span>
+      <% end %>
 
-  <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+      <%= link_to(login_path) do %>
+      <span class="round">
+        <%= image_tag("login.png", :alt => "sign-up logo", class: "round-logo") %>Login
+      </span>
+      <% end %>
+
+      <%= link_to(about_path) do %>
+      <span class="round">
+        <%= image_tag("info.png", :alt => "sign-up logo", class: "round-logo") %>About
+      </span>
+      <% end %>
+
 </div>
 
 <% end %>
