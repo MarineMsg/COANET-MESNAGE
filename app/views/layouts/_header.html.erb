@@ -20,7 +20,7 @@
               <li><%= link_to "Settings", edit_user_path(current_user) %></li>
               <li class="divider"></li>
               <li>
-                <%= link_to "Log out", logout_path, method: "delete" %>
+                <%= link_to "Log out", logout_path, method: "get" %> <!-- method était delete-->
               </li>
             </ul>
           </li>

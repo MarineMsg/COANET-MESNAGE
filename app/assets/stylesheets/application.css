@@ -158,6 +158,30 @@ a:hover{
   background-color: #E7807B;
 }
 
+/* dropdown sans javascript */
+
+.no-js .nav li {
+    position: relative;
+}
+
+.no-js .nav ul.dropdown-menu {
+    /*margin: 0;*/
+    display: block;
+    list-style: none;
+    white-space: nowrap;
+    position: absolute;
+    right: -9999px;
+}
+
+.no-js .nav li:hover ul.dropdown-menu {
+    right: 0;
+}
+
+.no-js .nav-collapse {
+    overflow: visible !important;
+    height: auto !important;
+}
+
 /* footer */
 
 footer {
