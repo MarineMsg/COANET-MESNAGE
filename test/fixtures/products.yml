@@ -2,10 +2,10 @@
 
 one:
   name: MyString
-  date: 2014-12-25
+  date: MyString
   user_id: 
 
 two:
   name: MyString
-  date: 2014-12-25
+  date: MyString
   user_id: 

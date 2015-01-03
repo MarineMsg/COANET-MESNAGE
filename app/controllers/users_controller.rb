@@ -10,6 +10,14 @@ class UsersController < ApplicationController
   def show
     @user = User.find(params[:id])
     @products = @user.products.paginate(page: params[:page])
+    respond_to do |format|
+      format.html
+      format.json { 
+        render json: @user.as_json(
+        only: [:id, :name],
+        include: { products: { only: [:id, :name, :date, :user_id, :created_at, :updated_at] } })
+      }
+    end
   end
 
   def new
