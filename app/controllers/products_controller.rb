@@ -21,7 +21,6 @@ class ProductsController < ApplicationController
     private
 
   	def product_params
-      product.user_name = current_user.name
       params.require(:product).permit(:name_product, :date)
     end
 
