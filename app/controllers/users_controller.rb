@@ -17,7 +17,7 @@ class UsersController < ApplicationController
       format.json { 
         render json: @user.as_json(
         only: [:id, :name],
-        include: { products: { only: [:id, :name, :date, :user_id] } })
+        include: { products: { only: [:id, :name_product, :date, :user_id] } })
       }
     end
   end

@@ -1,6 +1,6 @@
 <li id="product-<%= product.id %>">
   <span class="user"><%= link_to product.user.name, product.user %></span>
-  <span class="name"><%= product.name %></span>
+  <span class="name"><%= product.name_product %></span>
   <span class="date"><%= product.date %></span>
   <span class="timestamp">
     Posted <%= time_ago_in_words(product.created_at) %> ago.

@@ -14,7 +14,7 @@
 ActiveRecord::Schema.define(version: 20150103185007) do
 
   create_table "products", force: true do |t|
-    t.string   "name"
+    t.string   "name_product"
     t.string   "date"
     t.integer  "user_id"
     t.datetime "created_at"
