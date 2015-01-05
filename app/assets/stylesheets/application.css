@@ -18,6 +18,8 @@
 
 html {
   overflow-y: scroll;
+  height: 100%;
+  background-image: url(motif.png);
 }
 
 body {
@@ -103,7 +105,7 @@ a:hover{
 /* header */
 
 .glyphicon{
-    background-image: url(assets/fonts/glyphicons-halflings-white.png);
+    background-image: url(glyphicons-halflings-white.png);
 }
 
 #logo {
@@ -189,7 +191,7 @@ footer {
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #fff;
-  background-color: #E7807B;
+  background: transparent;
 }
 
 footer a {
