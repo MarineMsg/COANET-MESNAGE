@@ -2,11 +2,11 @@
   <%= render 'shared/error_messages', object: f.object %>
   <div class="field">
     <%= f.label :name %><br>
-    <%= f.text_field :name class: 'form-control' %>
+    <%= f.text_field :name, class: 'form-control' %>
   </div>
   <div class="field">
     <%= f.label :date %><br>
-    <%= f.text_field :date class: 'form-control'%>
+    <%= f.text_field :date, class: 'form-control'%>
   </div>
   <%= f.submit "Post", class: "btn btn-primary" %>
 <% end %>
