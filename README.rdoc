@@ -1,28 +1,11 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Cette application a pour but de permettre aux personnes ayant une memoire de poisson rouge de se souvenir à quel 
+moment son produit de beauté (crème, maquillage, etc...) sera périmé. Pour cela il suffit de créer un compte, et lorsqu'on
+ouvre un produit, on le rentre sur le site en ajoutant sa date de péremption (le jour auquel on l'ouvre + le nombre de mois
+indiqué au dos du produit). Ainsi plus de risque d'utiliser un produit périmé !
 
-Things you may want to cover:
+Logs de l'Admin : 
+adr : admin@test.com
+mdp : superadmin
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
