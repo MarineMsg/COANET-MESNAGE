@@ -72,8 +72,20 @@ a{
   color: #E7807B;
 }
 
+.checkbox span{
+  margin-left: 15px;
+}
+
 a:hover{
   text-decoration: none;
+  background-color: transparent;
+  color: #E7807B;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: transparent;
 }
 
 .btn-primary {
@@ -86,7 +98,7 @@ a:hover{
   border-color: #777;
 }
 
-.round{
+#round{
   display:inline-block;
   line-height: 145px;
   width: 150px;
@@ -96,10 +108,15 @@ a:hover{
   margin: 10px;
 }
 
-.round-logo {
+#round-logo {
   position: absolute;
   margin-top: -10px;
   margin-left: -50px;
+}
+
+#round-logo:hover {
+  text-decoration: none;
+  background-color: transparent;
 }
 
 /* header */
@@ -128,8 +145,13 @@ a:hover{
 }
 
 #logo-titre:hover {
-  color: #fff;
   text-decoration: none;
+  background-color: transparent;
+}
+
+#logo:hover {
+  text-decoration: none;
+  background-color: transparent;
 }
 
 .navbar{
